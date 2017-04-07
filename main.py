@@ -14,10 +14,12 @@ import stock.SinaStk as stock
 
 app = Flask(__name__)
 
+
 # 测试
 @app.route("/hello")
 def hello():
     return "hello"
+
 
 # 回复 
 def reply_msg(in_msg):
@@ -31,11 +33,12 @@ def reply_msg(in_msg):
     else:
         return tips
 
+    
 # 接口
 @app.route('/auth', methods=['GET', 'POST'])
 def auth():
     if request.method == 'GET':
-        token = 'XXX' # your token
+        token = 'XXX'  # your token
         query = request.args
         signature = query.get('signature', '')
         timestamp = query.get('timestamp', '')
