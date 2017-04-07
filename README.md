@@ -13,7 +13,7 @@ v1.1的新特征：<br>
 ![](https://github.com/Shaw-lib/weixinstk1.0/raw/master/example2.jpg "实例")  <br>
 <br>可扫描二维码试验
 <br>
-![](https://github.com/Shaw-lib/weixinstk1.0/raw/master/微信公众号.jpg "实例")  <br>
+<img src="https://github.com/Shaw-lib/weixinstk1.0/raw/master/微信公众号.png" width="30%" height="30%">  <br>
 <br>
 <br>
 更多功能改进中...
