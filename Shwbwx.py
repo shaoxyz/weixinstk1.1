@@ -5,7 +5,6 @@
     支持深沪港美不同市场多支股票同时获取;
     ...v1.1
 """
-# -*- coding=utf-8 -*-
 
 import time  
 from flask import Flask,request, make_response  
